@@ -11,7 +11,8 @@ import os
 class ReadConfigFile():
 
     # confPath = os.path.abspath(os.path.dirname(os.getcwd())) + "\\api_test\\conf.cfg"
-    confPath=os.path.abspath(os.path.dirname(os.getcwd()))+"\\conf.cfg"
+    # confPath=os.path.dirname(os.getcwd())+"\\conf.cfg"
+    confPath=os.getcwd()+"\\conf.cfg"
     cf = ConfigParser.ConfigParser()
     cf.read(confPath)
 
