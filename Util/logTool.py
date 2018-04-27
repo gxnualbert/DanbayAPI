@@ -19,12 +19,13 @@ class AddLog(object):
     def __init__(self):
         pass
     @classmethod
-    def Log(self,loglevel,logmessage):
+    def Log(self,logmessage,loglevel="info"):
         cwd = os.getcwd()
-        logFolder=os.path.dirname(cwd)+ "\\API_Test_Report\\\\"+ "log_"+time.strftime("%Y-%m-%d")
+        # logFolder=os.path.dirname(cwd)+ "\\API_Test_Report\\"+ "log_"+time.strftime("%Y-%m-%d")
+        logFolder=cwd+ "\\API_Test_Report\\"+ "log_"+time.strftime("%Y-%m-%d")
         if not os.path.exists(logFolder):
             os.mkdir(logFolder)
-        LOG_FILE =  logFolder +"\\\\"+ time.strftime('%Y-%m-%d %H_%M_%S', time.localtime(time.time())) + ".log"
+        LOG_FILE =  logFolder +"\\"+ time.strftime('%Y-%m-%d %H_%M_%S', time.localtime(time.time())) + ".log"
         # Logger=time.strftime('%Y-%m-%d %H%M%S', time.localtime(time.time()))
         # handler = logging.handlers.RotatingFileHandler(LOG_FILE, maxBytes=1024 * 1024, backupCount=5)  # 实例化handler
         # fmt = '%(asctime)s - %(filename)s:- %(message)s'
@@ -50,12 +51,12 @@ class AddLog(object):
         logging.getLogger('').addHandler(console)
         #################################################################################################
         if loglevel=="debug":
-            logging.debug(logmessage)
+            logging.debug(logmessage.decode("utf-8"))
         elif loglevel=="info":
-            logging.info(logmessage)
+            logging.info(logmessage.decode("utf-8"))
         elif loglevel=="warning":
-            logging.warning(logmessage)
+            logging.warning(logmessage.decode("utf-8"))
 
 
 # a=AddLog()
-# a.Log()
+# a.Log("dddddddddddd")
