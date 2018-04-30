@@ -1,0 +1,33 @@
+2018-04-28 17:36:13 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 17:36:13 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:36:43 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 17:36:43 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:37:13 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 17:37:13 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:37:43 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 17:37:43 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:38:13 logTool.py[line:56] INFO 开始第5 次循环去找权限动态
+2018-04-28 17:38:13 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  188, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":1,"op_code":0,"alias":"66582877","time":"180428173758"} 
+2018-04-28 17:38:13 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-28 17:38:13 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/editPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=12574896&pwdType=3&mtoken=b06d8yks2NP05FZrT3sSosF8QK/huFOwygvEiFsGS6RUiGjmrTtj4s/iSjgtD0ts&pwdID=814609 HTTP/1.1" 200 None
+2018-04-28 17:38:13 logTool.py[line:56] INFO 新修改后的租客密码是：12574896
+2018-04-28 17:38:13 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 17:38:14 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:38:44 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 17:38:44 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:39:14 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 17:39:14 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:39:44 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 17:39:44 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:40:14 logTool.py[line:56] INFO 开始第5 次循环去找权限动态
+2018-04-28 17:40:14 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:40:44 logTool.py[line:56] INFO 开始第6 次循环去找权限动态
+2018-04-28 17:40:44 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:41:14 logTool.py[line:56] INFO 开始第7 次循环去找权限动态
+2018-04-28 17:41:14 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:41:44 logTool.py[line:56] INFO 开始第8 次循环去找权限动态
+2018-04-28 17:41:44 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:42:14 logTool.py[line:56] INFO 开始第9 次循环去找权限动态
+2018-04-28 17:42:14 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:42:44 logTool.py[line:56] INFO 开始第10 次循环去找权限动态
+2018-04-28 17:42:44 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒

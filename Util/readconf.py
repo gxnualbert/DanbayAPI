@@ -33,7 +33,10 @@ class ReadConfigFile():
         lockInfo={}
         lockInfo["lockDeviceID"]=self.cf.get("LockInfo", "lockDeviceID")
         lockInfo["lockNewAddZuKePwd"]=self.cf.get("LockInfo", "lockNewAddZuKePwd")
-
+        lockInfo["lockPwd_editPwd_zuKe"]=self.cf.get("LockInfo", "lockPwd_editPwd_zuKe")
+        lockInfo["lockPwd_addPwd_Tmp"]=self.cf.get("LockInfo", "lockPwd_addPwd_Tmp")
+        lockInfo["lockPwd_addPwdWithDate"]=self.cf.get("LockInfo", "lockPwd_addPwdWithDate")
+        lockInfo["lockPwd_editPwd_gj"]=self.cf.get("LockInfo", "lockPwd_editPwd_gj")
 
         return  lockInfo
 

@@ -1,0 +1,5 @@
+2018-04-28 11:49:16 logTool.py[line:56] INFO 开始休眠一分钟
+2018-04-28 11:49:17 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 11:49:17 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠3分钟
+2018-04-28 11:52:17 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 11:52:17 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  119, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":0,"action":1,"op_code":0,"alias":"08302660","time":"180428114947"} 

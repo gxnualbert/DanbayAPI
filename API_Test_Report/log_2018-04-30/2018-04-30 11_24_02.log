@@ -1,0 +1,19 @@
+2018-04-30 11:24:02 logTool.py[line:56] INFO addPwd_zuKe_StatusCode下发新增租客密码指令成功！！！租客密码为85227678
+2018-04-30 11:25:32 logTool.py[line:56] INFO addPwd_zuKe_CheckStatusAccess新增租客密码权限动态已经校验完成！！！
+2018-04-30 11:25:32 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-30 11:25:32 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/addPwdWithDate?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=13396363&pwdType=3&mtoken=yejs9O0YQCnV7/KZKLqj25ED9dx3CRyc6RpIkz+M+M7ZJmpbapCISJAB8n2b3f0V&beginTime=2018-04-30%2011:25:32&endTime=2018-04-30%2014:25:32.567000 HTTP/1.1" 200 None
+2018-04-30 11:28:33 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-30 11:28:33 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/addPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=85247111&pwdType=0&mtoken=yejs9O0YQCnV7/KZKLqj25ED9dx3CRyc6RpIkz+M+M7ZJmpbapCISJAB8n2b3f0V HTTP/1.1" 200 None
+2018-04-30 11:28:33 logTool.py[line:56] INFO 添加临时密码：85247111，密码编号pwdID为：814627
+2018-04-30 11:31:33 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-30 11:31:33 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/editPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=35603322&pwdType=3&mtoken=yejs9O0YQCnV7/KZKLqj25ED9dx3CRyc6RpIkz+M+M7ZJmpbapCISJAB8n2b3f0V&pwdID=814625 HTTP/1.1" 200 None
+2018-04-30 11:31:33 logTool.py[line:56] INFO 修改租客密码指令发送成功，新修改后的租客密码是：35603322
+2018-04-30 11:34:34 logTool.py[line:56] INFO 完成修改租客密码的动态权限检查。需要修改的密码的密码别名是：37703187
+2018-04-30 11:34:34 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-30 11:34:34 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/updatePwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&updateType=0&pwdType=3&pwdID=814625&mtoken=yejs9O0YQCnV7/KZKLqj25ED9dx3CRyc6RpIkz+M+M7ZJmpbapCISJAB8n2b3f0V HTTP/1.1" 200 None
+2018-04-30 11:34:34 logTool.py[line:56] INFO 冻结租客密码指令发送成功，冻结的租客pwdID是：87639650
+2018-04-30 11:37:34 logTool.py[line:56] INFO 查找的权限动态列表：CON-POST   MID=  769, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":4,"op_code":0,"alias":"37703187","time":"180430113725"} 
+2018-04-30 11:37:34 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-30 11:37:34 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/delPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&pwdType=3&pwdID=814625&mtoken=yejs9O0YQCnV7/KZKLqj25ED9dx3CRyc6RpIkz+M+M7ZJmpbapCISJAB8n2b3f0V HTTP/1.1" 200 None
+2018-04-30 11:37:34 logTool.py[line:56] INFO 删除租客密码指令发送成功，删除的租客pwdID是：814625
+2018-04-30 11:40:35 logTool.py[line:56] INFO 查找的权限动态列表：CON-POST   MID=  777, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":3,"op_code":0,"alias":"37703187","time":"180430114025"} 

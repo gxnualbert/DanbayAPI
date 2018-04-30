@@ -1,0 +1,4 @@
+2018-04-28 21:23:58 logTool.py[line:56] INFO 被选中修改密码的管家ID是：814302
+2018-04-28 21:23:58 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-28 21:23:58 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/editPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=87896643&pwdType=2&mtoken=4XzHSzlMq2d6k0JGAT6HP4f1JgiVVL2OC0b2auY2Baf2Dl9jUDUGsONyFid31+5p&pwdID=814302 HTTP/1.1" 200 None
+2018-04-28 21:23:58 logTool.py[line:56] INFO 修改管家密码指令发送成功，新修改后的管家密码是：87896643

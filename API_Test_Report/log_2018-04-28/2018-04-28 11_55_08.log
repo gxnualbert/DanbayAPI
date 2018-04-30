@@ -1,0 +1,5 @@
+2018-04-28 11:55:08 logTool.py[line:56] INFO 开始休眠一分钟
+2018-04-28 11:56:08 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 11:56:08 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  133, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":0,"action":1,"op_code":0,"alias":"84035388","time":"180428115547"} 
+2018-04-28 11:56:08 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 11:56:08 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  133, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":0,"action":1,"op_code":0,"alias":"84035388","time":"180428115547"} 

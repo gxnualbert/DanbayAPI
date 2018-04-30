@@ -1,0 +1,37 @@
+2018-04-28 17:25:33 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 17:25:33 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:26:03 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 17:26:03 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  155, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":1,"op_code":0,"alias":"79267362","time":"180428172558"} 
+2018-04-28 17:26:03 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-28 17:26:03 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/addPwdWithDate?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=13333333&pwdType=3&mtoken=audA5/PK+/mBh7h0QhqtIGckNIhKnNJ39SXjNN7XYIPszTCgcviueD1dJ7rfzRBG&beginTime=2018-04-28%2017:26:03&endTime=2018-04-28%2020:26:03.922000 HTTP/1.1" 200 None
+2018-04-28 17:26:04 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 17:26:04 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:26:34 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 17:26:34 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:27:04 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 17:27:04 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:27:34 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 17:27:34 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:28:04 logTool.py[line:56] INFO 开始第5 次循环去找权限动态
+2018-04-28 17:28:04 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:28:34 logTool.py[line:56] INFO 开始第6 次循环去找权限动态
+2018-04-28 17:28:34 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:29:04 logTool.py[line:56] INFO 开始第7 次循环去找权限动态
+2018-04-28 17:29:04 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  162, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":1,"op_code":0,"alias":"29062037","time":"180428172856"} 
+2018-04-28 17:29:04 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-28 17:29:05 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/addPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=51111111&pwdType=0&mtoken=audA5/PK+/mBh7h0QhqtIGckNIhKnNJ39SXjNN7XYIPszTCgcviueD1dJ7rfzRBG HTTP/1.1" 200 None
+2018-04-28 17:29:05 logTool.py[line:56] INFO 添加临时密码：51111111，密码编号pwdID为：814608
+2018-04-28 17:29:05 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 17:29:05 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:29:35 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 17:29:35 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:30:05 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 17:30:05 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:30:35 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 17:30:35 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:31:05 logTool.py[line:56] INFO 开始第5 次循环去找权限动态
+2018-04-28 17:31:06 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:31:36 logTool.py[line:56] INFO 开始第6 次循环去找权限动态
+2018-04-28 17:31:36 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:32:06 logTool.py[line:56] INFO 开始第7 次循环去找权限动态
+2018-04-28 17:32:06 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  169, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":0,"action":1,"op_code":0,"alias":"76424809","time":"180428173156"} 

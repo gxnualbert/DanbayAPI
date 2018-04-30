@@ -1,0 +1,9 @@
+2018-04-28 17:21:51 logTool.py[line:56] INFO 添加临时密码：52244444，密码编号pwdID为：814605
+2018-04-28 17:21:51 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 17:21:51 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:22:21 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 17:22:21 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:22:51 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 17:22:51 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 17:23:21 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 17:23:21 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  145, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":0,"action":1,"op_code":0,"alias":"18466678","time":"180428172255"} 

@@ -1,0 +1,13 @@
+2018-04-28 18:33:10 logTool.py[line:56] INFO addPwd_zuKe_StatusCode下发新增租客密码指令成功！！！
+2018-04-28 18:33:10 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 18:33:10 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 18:33:40 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 18:33:40 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 18:34:10 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 18:34:10 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=   64, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":1,"op_code":0,"alias":"84958564","time":"180428183405"} 
+2018-04-28 18:34:10 logTool.py[line:56] INFO addPwd_zuKe_CheckStatusAccess新增租客密码权限动态已经校验完成！！！
+2018-04-28 18:34:10 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-28 18:34:10 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/editPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=33333370&pwdType=3&mtoken=vOcETkrLG6nTGGryB3XCy0NR16+x1kEyfm1Vu0pi73knRIQiJmNNIWU8bHKj/vY4&pwdID=814616 HTTP/1.1" 200 None
+2018-04-28 18:34:10 logTool.py[line:56] INFO 修改租客密码完成，新修改后的租客密码是：33333370
+2018-04-28 18:34:10 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 18:34:10 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=   64, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":1,"op_code":0,"alias":"84958564","time":"180428183405"} 

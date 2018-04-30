@@ -1,0 +1,29 @@
+2018-04-28 18:58:31 logTool.py[line:56] INFO addPwd_zuKe_StatusCode下发新增租客密码指令成功！！！租客密码为98777777
+2018-04-28 18:58:32 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 18:58:32 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 18:59:02 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 18:59:02 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 18:59:32 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 18:59:32 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:00:02 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 19:00:02 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:00:32 logTool.py[line:56] INFO 开始第5 次循环去找权限动态
+2018-04-28 19:00:32 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  125, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":1,"op_code":0,"alias":"68107709","time":"180428190015"} 
+2018-04-28 19:00:32 logTool.py[line:56] INFO addPwd_zuKe_CheckStatusAccess新增租客密码权限动态已经校验完成！！！
+2018-04-28 19:00:32 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-28 19:00:32 connectionpool.py[line:396] DEBUG http://127.0.0.1:50843 "POST http://test.www.danbay.cn/system//deviceCtrl/lockPwd/editPwd?deviceId=b8e09c3e18dba4ea934152a3026945e0&password=33333398&pwdType=3&mtoken=uyh9Te1KnNXq6YwUF02gOQ+lqUq18i12pUm4FSXZkuZ/ZvuTsCWCfZVaN8xh3kb1&pwdID=814618 HTTP/1.1" 200 None
+2018-04-28 19:00:32 logTool.py[line:56] INFO 修改租客密码完成，新修改后的租客密码是：33333398
+2018-04-28 19:00:32 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 19:00:32 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:01:02 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
+2018-04-28 19:01:02 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:01:32 logTool.py[line:56] INFO 开始第3 次循环去找权限动态
+2018-04-28 19:01:32 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:02:02 logTool.py[line:56] INFO 开始第4 次循环去找权限动态
+2018-04-28 19:02:02 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:02:32 logTool.py[line:56] INFO 开始第5 次循环去找权限动态
+2018-04-28 19:02:32 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:03:02 logTool.py[line:56] INFO 开始第6 次循环去找权限动态
+2018-04-28 19:03:02 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 19:03:32 logTool.py[line:56] INFO 开始第7 次循环去找权限动态
+2018-04-28 19:03:32 logTool.py[line:56] INFO 从数据库中找到了添加的密码别名，记录为：CON-POST   MID=  135, Token=, OptionSet={"Uri-Path":["status","access"], "Uri-Query":"dev_id=b8e09c3e18dba4ea934152a3026945e0"}, payLoadString={"type":3,"action":2,"op_code":0,"alias":"68107709","time":"180428190316"} 

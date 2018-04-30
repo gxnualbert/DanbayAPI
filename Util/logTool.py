@@ -6,7 +6,7 @@
 @time: 2018/04/27/22:19
 """
 
-#coding:utf-8
+
 import logging
 import logging.handlers
 import time,os

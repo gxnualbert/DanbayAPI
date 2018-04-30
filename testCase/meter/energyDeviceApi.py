@@ -28,6 +28,7 @@ class getEnergyDeviceApi(unittest.TestCase):
     mtoken = tk.getToken()
 
     def test_getEnergyDeviceList(self):
+        # 获取设备数量，然后跟数据库中，同一个账号下的设备数量进行比对？？？？？
         r = requests.post(self.apiHostPrefix + '/deviceInfo/getEnergyDeviceList?mtoken=%s' % self.mtoken)
         self.assertEquals(200, r.status_code,msg=u"状态码不等于200")
 
@@ -61,4 +62,3 @@ class getEnergyDeviceApi(unittest.TestCase):
                 "deviceId",  self.mtoken))
         self.assertEquals(200, r.status_code)
 
-    # def test_

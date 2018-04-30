@@ -1,0 +1,4 @@
+2018-04-28 15:46:54 logTool.py[line:56] INFO 添加临时密码：57799193，密码编号pwdID为：814584
+2018-04-28 15:47:07 logTool.py[line:56] INFO 开始第1 次循环去找权限动态
+2018-04-28 15:47:07 logTool.py[line:56] INFO log report 中没有找到数据库权限动态，开始休眠30秒
+2018-04-28 15:47:37 logTool.py[line:56] INFO 开始第2 次循环去找权限动态
