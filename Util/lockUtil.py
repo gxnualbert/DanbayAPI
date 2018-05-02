@@ -43,11 +43,15 @@ class lockCommonUtil():
 
         if pwdType==0:
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
-                               "AND url_path='status/access' AND report_content LIKE '%\"type\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+                               "AND url_path='status/access' AND report_content LIKE '%\"type\":0,\"action\":1,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
 
         elif  pwdType==3:
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
-                               "AND url_path='status/access' AND report_content LIKE '%\"type\":3%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+                               "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":1,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+        elif pwdType=="addPwd_gj":
+            getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
+                               "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":1,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+
         elif pwdType==4:
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":2,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
@@ -72,6 +76,9 @@ class lockCommonUtil():
         elif pwdType == "delPwd_tmp":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":0,\"action\":3,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+        elif pwdType == "delPwd_gj":
+            getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
+                               "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":3,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         try:
 
             for looptime in range(20):
