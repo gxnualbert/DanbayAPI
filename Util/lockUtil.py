@@ -41,21 +41,21 @@ class lockCommonUtil():
 
         returnList=[]
 
-        if pwdType==0:
+        if pwdType=="addPwd_tmp":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":0,\"action\":1,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
 
-        elif  pwdType==3:
+        elif  pwdType=="addPwd_zuke":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":1,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         elif pwdType=="addPwd_gj":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":1,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
 
-        elif pwdType==4:
+        elif pwdType=="editPwd_zuke":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":2,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
-        elif pwdType==5:
+        elif pwdType=="editPwd_gj":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":2,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         elif pwdType=="updatePwd_freeze_zuke":
@@ -66,10 +66,10 @@ class lockCommonUtil():
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":5,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         elif pwdType=="updatePwd_freeze_gj":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
-                               "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":4,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+                               "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":4,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         elif pwdType=="updatePwd_unfreeze_gj":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
-                               "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":5,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
+                               "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":5,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         elif pwdType == "delPwd_zuke":
             getCCpwdAliasSql = "SELECT report_content FROM log_report WHERE device_id=" + "\'" + lockDeviceID + "\'" + \
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":3,\"action\":3,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
@@ -81,7 +81,7 @@ class lockCommonUtil():
                                "AND url_path='status/access' AND report_content LIKE '%\"type\":2,\"action\":3,\"op_code\":0%' AND report_time LIKE '" + reportTime + "%'ORDER BY report_time DESC "
         try:
 
-            for looptime in range(20):
+            for looptime in range(10):
                 # log.Log("开始第%s 次循环去找权限动态" % (looptime + 1))
                 getCenterControlPwdAlias = self.db.dbOperation(getCCpwdAliasSql, db='danbay_task')
                 # 遍历结果，看看能否找到权限动态
@@ -96,7 +96,7 @@ class lockCommonUtil():
                             findResult =1
                             # log.Log("从数据库中找到了添加的密码别名，记录为：%s" % dbaccessRecord)
                             returnList.append(findResult)
-                            returnList.append(dbaccessRecord)
+                            returnList.append(accessRecord)
 
                             return returnList
                             raise Exception
