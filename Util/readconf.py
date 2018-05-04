@@ -39,6 +39,13 @@ class ReadConfigFile():
         lockInfo["lockPwd_editPwd_zuke"]=self.cf.get("LockInfo", "lockPwd_editPwd_zuke")
         lockInfo["lockPwd_editPwd_gj"]=self.cf.get("LockInfo", "lockPwd_editPwd_gj")
         return  lockInfo
+    def getElectronicMeterInfo(self):
+        electronicMeterInfo={}
+        electronicMeterInfo["electronicMeteID"]=self.cf.get("ElectronicMeterInfo", "electronicMeteID")
+
+        return electronicMeterInfo
+
+
 
 # a=ReadConfigFile()
 # print a.getBasicConf()["password"]
