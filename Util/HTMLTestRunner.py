@@ -529,7 +529,10 @@ class Template_mixin(object):
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
+    <!-- <a class="%(style)s" onfocus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
+        %(status)s</a>  修改了一下这里的样式-->
+    
+    <a class="%(style)s" onfocus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
         %(status)s</a>
 
     <div id='div_%(tid)s' class="popup_window">
